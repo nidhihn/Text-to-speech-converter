@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    /* background: linear-gradient(to right, #a18cd1, #fbc2eb); */
+    /* background: linear-gradient(to right, #5ee7df, #b490ca); */
+    /* background: linear-gradient(to right, #34e89e, #0f3443); */
+    background: linear-gradient(to bottom, #2b5876, #4e4376);
+    
+
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+}
+.hero h1{
+    font-size:45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
