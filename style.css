@@ -9,21 +9,33 @@
     min-height: 100vh;
     /* background: linear-gradient(to right, #a18cd1, #fbc2eb); */
     /* background: linear-gradient(to right, #5ee7df, #b490ca); */
-    /* background: linear-gradient(to right, #34e89e, #0f3443); */
-    background: linear-gradient(to bottom, #2b5876, #4e4376);
-    
-
-
-
-
+    background: linear-gradient(to right, #34e89e, #0f3443);
+    /* background: linear-gradient(to bottom, #2b5876, #4e4376); */
     display: flex;
     align-items: center;
     justify-content:center ;
     flex-direction: column;
+    color:#fff ;
 }
 .hero h1{
     font-size:45px;
     font-weight: 500;
     margin-top: -50px;
     margin-bottom: 50px;
+}
+.hero h1 span{
+    color: #ff2963;
+}
+textarea{
+    width:600px;
+    height: 250px;
+    background:#D6BD98;
+    color: #fff;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    resize:none ;
+    margin-bottom: 30px;
 }
