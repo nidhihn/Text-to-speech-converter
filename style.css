@@ -9,8 +9,10 @@
     min-height: 100vh;
     /* background: linear-gradient(to right, #a18cd1, #fbc2eb); */
     /* background: linear-gradient(to right, #5ee7df, #b490ca); */
-    background: linear-gradient(to right, #34e89e, #0f3443);
+    /* background: linear-gradient(to right, #34e89e, #0f3443); */
     /* background: linear-gradient(to bottom, #2b5876, #4e4376); */
+    /* background: linear-gradient(to right, #00ff00, #32cd32); */
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
     display: flex;
     align-items: center;
     justify-content:center ;
@@ -29,8 +31,8 @@
 textarea{
     width:600px;
     height: 250px;
-    background:#D6BD98;
-    color: #fff;
+    background:#f7e4ef;
+    color: #121111;
     font-size: 15px;
     border: 0;
     outline: 0;
@@ -38,4 +40,24 @@ textarea{
     border-radius: 10px;
     resize:none ;
     margin-bottom: 30px;
+}
+textarea::placeholder{
+    font-size: 16px;
+    color: #131010;
+}
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    background: #ff2963;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 50px;
+    border-radius: 15px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
 }
