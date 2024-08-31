@@ -1,3 +1,6 @@
+/* body{
+    background-image: url('images\pexels-cottonbro-6153354.jpg');
+} */
 *{
     margin: 0;
     padding: 0;
@@ -7,40 +10,45 @@
 .hero{
     width: 100%;
     min-height: 100vh;
-    /* background: linear-gradient(to right, #a18cd1, #fbc2eb); */
-    /* background: linear-gradient(to right, #5ee7df, #b490ca); */
-    /* background: linear-gradient(to right, #34e89e, #0f3443); */
-    /* background: linear-gradient(to bottom, #2b5876, #4e4376); */
-    /* background: linear-gradient(to right, #00ff00, #32cd32); */
-    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    background-image: url('images/pexels-cottonbro-6153354.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    
     display: flex;
     align-items: center;
     justify-content:center ;
     flex-direction: column;
-    color:#fff ;
+    /* color:#fff ; */
 }
 .hero h1{
-    font-size:45px;
-    font-weight: 500;
+    font-size:55px;
+    font-weight: 600;
     margin-top: -50px;
     margin-bottom: 50px;
+    color: #f7e4ef;
 }
 .hero h1 span{
-    color: #ff2963;
+    
+    color: black;
 }
-textarea{
-    width:600px;
+
+textarea {
+    width: 600px;
     height: 250px;
-    background:#f7e4ef;
+    background: rgba(255, 255, 255, 0.4); 
     color: #121111;
     font-size: 15px;
     border: 0;
     outline: 0;
     padding: 20px;
     border-radius: 10px;
-    resize:none ;
+    resize: none;
     margin-bottom: 30px;
 }
+
 textarea::placeholder{
     font-size: 16px;
     color: #131010;
@@ -52,7 +60,8 @@ textarea::placeholder{
     gap: 20px;
 }
 button{
-    background: #ff2963;
+    /* background: #ff2963; */
+    background: rgba(0, 0, 0, 0.4);
     color: #fff;
     font-size: 16px;
     padding: 10px 30px;
@@ -70,7 +79,7 @@ button img{
 select{
     flex: 1;
     color:#131010 ;
-    background: #f7e4ef;
+    background: rgba(255, 255, 255, 0.4); 
     height: 50px;
     padding: 0 20px;
     outline: 0;
@@ -83,3 +92,6 @@ select{
     background-position-x: calc(100% - 20px);
     background-position-y: 18px;
 }
+
+
+
